@@ -1,0 +1,46 @@
+﻿<div id="body">
+  <section class="featured">
+    <div class="content-wrapper">
+      <hgroup class="title">
+        <h1>Welcome to Canyon County Web API!</h1>
+      </hgroup>
+      <p>
+       The goal of this site is to inform developers on how they can access data that we’ve made publically available. The information is broken out by department, and they are listed below. 
+      </p>
+    </div>
+  </section>
+  <section class="content-wrapper main-content clear-fix">
+    <h2>Overview</h2>
+      <p>
+       Each service uses a REST like delivery mechanism. It’s REST like because all information is read-only and there’s no way it can be updated (sorry, but you can’t put your neighbor in jail).
+      </p>
+      <p>
+       Each REST call or entry point can return data in XML or JSON format. Depending on the library used to fetch the data you may get XML or you may get JSON. You can however use a <em>Content-Type</em> header to specify what you prefer. Acceptable values are <em>“application/xml”</em> and <em>“application/json”</em>. If a content type is specified that is not understood, it will default to “application/xml”. This may change in the near future as JSON is becoming the predominant format of sending data over the web.
+      </p>
+      <p>
+        We are currently using <a href="http://enable-cors.org/" target="_blank">CORS</a> to allow access to everyone. No signup, no tokens. This will change if the service is being abused. Play nice and everyone will be able to use it.
+      </p>
+    <h3>Current Services:</h3>
+    <ol class="round">
+      <li class="one">
+        <h5>Sheriff</h5>
+        If you’re interested in checking out Current Arrests, Jail Roster or DMV Wait times this is what you want to check out. (Coming Soon)
+      </li>
+      <li class="two">
+        <h5>Election</h5>
+        Wanting to know the current election results then check out elections. (Coming After Sheriff)
+      </li>
+    </ol>
+    <h3>Code:</h3>
+    <p>
+      As time permits there will be sample code generated that shows how calls should be made. This will be hosted on <a href="https://www.github.com" target="_blank">GitHub</a>
+    </p>
+    <h3>One More Thing:</h3>
+    <p>
+      Though not required you can notify <a href="mailto:webmaster@canyonco.org?subject=[WebAPI]">webmaster@canyonco.org</a> and let us know you’re using it, politely request additional information or just ask general questions. Real people read this! We will then use that contact information to inform you of planned down time and possible breaking API changes.
+    </p>
+    <p>
+      We are currently working with legal on a Terms of Service and Privacy Policy. Once that is complete you will be able to access the data.
+    </p>
+  </section>
+</div>
